@@ -1,0 +1,33 @@
+# resources/docs/host-schema.yaml
+
+components:
+  schemas:
+    Host:
+      type: object
+      properties:
+        id:
+          type: integer
+        file_id:
+          type: string
+        host_name:
+          type: string
+        max_check_attempts:
+          type: integer
+        notification_interval:
+          type: integer
+        notification_options:
+          type: array
+          items:
+            type: string
+        notification_period:
+          type: string
+        template:
+          type: string
+      required:
+        - file_id
+        - host_name
+        - max_check_attempts
+        - notification_interval
+        - notification_options
+        - notification_period
+        - template

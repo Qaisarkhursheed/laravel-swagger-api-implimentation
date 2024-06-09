@@ -1,0 +1,40 @@
+---
+admin:
+  username: "admin"
+  password: >
+    $2y$10$XeqI.5ojYd3zuo4bKDtq3u7q8j22dPBlJsCDA4UMsxHMsaenWwQ8u
+  password_algo: "crypt"
+  modules:
+    - "Default"
+  groups:
+    - "admins"
+  realname: "admin"
+qaisar:
+  username: "qaisar"
+  realname: "qaisar"
+  password: >
+    $2y$10$ulrZtKnXIPRCU7Gzv5NsiuKKEiWLcf4JMP/JIZ2yV1woAhhe/z9M.
+  groups:
+    - "admins"
+  password_algo: "crypt"
+  modules:
+    - "Default"
+qaisar1:
+  username: "qaisar1"
+  realname: "qaisar1"
+  password: >
+    $2y$10$kM6IGAet9Kmb/mfnPCrLcOnbCI8nOEVUZojBvvqT81hWzqmieoKvO
+  modules:
+    - "Default"
+  groups:
+    - "admins"
+  password_algo: "crypt"
+admin2:
+  username: "admin2"
+  password: >
+    $2y$10$0iJi4jkXPoP3H2MYQWXtN.Jm32upDFo14Mbz9m0vlpkot//UvsHQe
+  password_algo: "crypt"
+  modules:
+    - "Default"
+  groups:
+    - "admins"
